@@ -31,13 +31,13 @@ public class NumberInWord {
 			String temp1=check.two_digit(num%100);
 			System.out.println(temp+" "+tens_power[0]+" "+temp1);
 		}
-		/*if(len==4) {
+		if(len==4) {
 			String temp=check.one_digit(num/1000);
 			num = num%1000;
 			String temp1=check.one_digit(num/100);
 			String temp2=check.two_digit(num%100);
 		    System.out.println(temp+" "+tens_power[1]+" "+temp1+" "+tens_power[0]+" "+temp2);
-		}*/
+		}
 
 	   
 	}
